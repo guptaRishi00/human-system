@@ -25,10 +25,10 @@ const HeroBanner2 = () => {
                   The All-in-One{" "}
                   <span className="cs_has_shape position-relative">
                     HR SaaS{" "}
-                    <img
+                    {/* <img
                       src="/assets/img/rectangle-shape.svg"
                       alt="Rectangle shape"
-                    />
+                    /> */}
                   </span>{" "}
                   Platform
                 </h1>

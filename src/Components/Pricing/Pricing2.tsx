@@ -8,40 +8,40 @@ const Pricing2 = () => {
 
   const pricingData = [
     {
-      title: "Free",
-      monthly: "0",
-      yearly: "0",
+      title: "Starter",
+      monthly: "9",
+      yearly: "7",
       features: [
-        "Email Marketing",
-        "Marketing, Sales, Workflow Automation",
-        "Pipelines",
-        "Lead Management",
-        "Up to 3 Seats",
-      ],
-    },
-    {
-      title: "Plus",
-      badge: "Most Popular",
-      monthly: "39",
-      yearly: "29",
-      features: [
-        "Live chat widget for website",
-        "All basic CRM features",
-        "Up to 8,000 contacts",
-        "Additional staff accounts",
-        "24/7 email and chat support",
+        "Core HR & Employee Profiles",
+        "Leave & Absence Management",
+        "Employee Self-Service Portal",
+        "Document Management (HR Vault)",
+        "Up to 25 Employees",
       ],
     },
     {
       title: "Professional",
-      monthly: "69",
-      yearly: "49",
+      badge: "Most Popular",
+      monthly: "19",
+      yearly: "15",
       features: [
-        "Organizational Admin",
-        "Limit access to content and data",
-        "Additional staff accounts",
-        "Organize teams",
-        "24/7 email and chat support",
+        "All Starter Features",
+        "Performance Management & OKRs",
+        "Expense Management",
+        "Payroll Automation & Payslips",
+        "Up to 100 Employees",
+      ],
+    },
+    {
+      title: "Enterprise",
+      monthly: "39",
+      yearly: "29",
+      features: [
+        "All Professional Features",
+        "Custom Workflows & Templates",
+        "Advanced Analytics & Reporting",
+        "API Access & Integrations",
+        "Unlimited Employees",
       ],
     },
   ];
@@ -56,16 +56,16 @@ const Pricing2 = () => {
         <div className="cs_section_heading cs_style_1 cs_center_column cs_mb_60 text-center position-relative z-1">
           <div className="cs_section_subtitle cs_type_1 cs_fs_18 cs_white_color cs_mb_22">
             {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
-            <span>Pricing Plan</span>
+            <span>Pricing Plans</span>
             {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
           </div>
           <h2 className="cs_section_title cs_fs_48 cs_semibold cs_white_color text-capitalize wow fadeInDown">
-            Choose Your Best Plan
+            Choose Your Ideal HR Plan
           </h2>
           <p className="cs_white_color cs_mb_33">
-            All the generators on the Internet tend to repeat predefined chunks
-            as necessary, making this <br />
-            the first true generator on the Internet.
+            Flexible pricing tailored for businesses of all sizes — from
+            startups to enterprise. <br />
+            All plans include multi-tenant security and GDPR compliance.
           </p>
           <div className="cs_center">
             <ul className="cs_pricing_control cs_type_1 cs_center cs_mp_0 cs_fs_14 cs_white_color cs_bold text-uppercase position-relative">
@@ -117,11 +117,14 @@ const Pricing2 = () => {
                 <div className="cs_pricing_info cs_mb_20">
                   <div className="cs_price cs_fs_74 cs_semibold cs_white_color cs_heading_font cs_mb_4">
                     ${isMonthly ? plan.monthly : plan.yearly}
-                    <small>Per User/Month</small>
+                    <small>Per Employee/Month</small>
                   </div>
                   <p className="cs_white_color mb-0">
-                    For Smaller Teams Looking to automate basic Sales Marketing
-                    and Business Processes
+                    {plan.title === "Starter"
+                      ? "For small teams getting started with modern HR management"
+                      : plan.title === "Professional"
+                        ? "For growing businesses needing full HR automation and payroll"
+                        : "For large organizations requiring custom workflows and integrations"}
                   </p>
                 </div>
                 <div className="cs_separator cs_mb_22"></div>

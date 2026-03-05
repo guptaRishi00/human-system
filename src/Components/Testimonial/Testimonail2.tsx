@@ -49,17 +49,17 @@ const Testimonail2 = () => {
   const testimonialContent = [
     {
       img: "/assets/img/human-2.png",
-      subtitle: "Marketing Manager",
-      title: "Juliana Rose",
+      subtitle: "HR Director",
+      title: "Sophie Laurent",
       content:
-        "We have been using CRM management for months now, and the Our sales pipeline visibility has improved, allowing us make data-driven. We have been using CRM management for months now,and the results speak for themselves. Our sales pipeline visibility has improved, allowing us to make data-driven.",
+        "Socle RH has completely transformed how we manage our HR operations. The leave management and payroll automation alone have saved us countless hours each month. The multi-tenant architecture gives us confidence that our data is secure and fully isolated.",
     },
     {
       img: "/assets/img/human-2.png",
-      subtitle: "UI/UX Designer",
-      title: "Anjelina Rose",
+      subtitle: "Operations Manager",
+      title: "Marc Dubois",
       content:
-        "We have been using CRM management for months now, and the Our sales pipeline visibility has improved, allowing us make data-driven. We have been using CRM management for months now,and the results speak for themselves. Our sales pipeline visibility has improved, allowing us to make data-driven.",
+        "The employee self-service portal has dramatically reduced our HR team's workload. Employees can now access their payslips, submit leave requests, and update their profiles without needing to contact HR directly. The performance management module has also streamlined our review cycles.",
     },
   ];
 
@@ -74,11 +74,11 @@ const Testimonail2 = () => {
           <div className="cs_section_heading_left">
             <div className="cs_section_subtitle cs_fs_18 cs_heading_color cs_mb_22">
               {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
-              <span>Testimonial</span>
+              <span>Testimonials</span>
               {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
             </div>
             <h2 className="cs_section_title cs_fs_48 cs_semibold mb-0 wow fadeInUp">
-              Positive Feedback from <br /> Our Clients
+              Trusted by HR Teams <br /> Across Industries
             </h2>
           </div>
           <div className="cs_section_heading_right">

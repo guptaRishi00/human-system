@@ -28,7 +28,7 @@ const Footer2 = () => {
         {/* Brand Column */}
         <div className="footer2__brand">
           <div className="footer2__brand-logo">
-            <img src="/assets/img/logo-2.svg" alt="Logo" />
+            <img src="/assets/img/logo.png" alt="Logo" style={{ maxHeight: '160px', width: 'auto' }} />
           </div>
           <p className="footer2__brand-desc">
             Empowering businesses with intelligent CRM and software solutions

@@ -4,39 +4,39 @@ const Services2 = () => {
   const teamContent = [
     {
       img: "/assets/img/services-icon1.svg",
-      title: "Sales Automation",
+      title: "Core HR & Employee Admin",
       content:
-        "CRM management is comprehensive contact management, allowing businesses to centralize and organize customer information",
+        "Centralized employee profiles, contract management with versioning, automated probation alerts, and customizable onboarding & offboarding checklists.",
     },
     {
       img: "/assets/img/services-icon2.svg",
-      title: "Contact Management",
+      title: "Leave & Absence Management",
       content:
-        "CRM management is comprehensive contact management, allowing businesses to centralize and organize customer information",
+        "Customizable leave policies, automated accruals, multi-step approval workflows, shared team calendars, and real-time leave balance reporting.",
     },
     {
       img: "/assets/img/services-icon3.svg",
-      title: "Task Management",
+      title: "Document Management (HR Vault)",
       content:
-        "CRM management is comprehensive contact management, allowing businesses to centralize and organize customer information",
+        "Secure, permission-based document repository with categorization, role-based access control, and automated expiration alerts for work permits and certifications.",
     },
     {
       img: "/assets/img/services-icon4.svg",
-      title: "Project Management",
+      title: "Performance Management",
       content:
-        "CRM management is comprehensive contact management, allowing businesses to centralize and organize customer information",
+        "Goal setting & tracking with OKRs/KPIs, cascading goals from company to individual, performance review cycles, and self-assessment forms.",
     },
     {
       img: "/assets/img/services-icon5.svg",
-      title: "Email Automation",
+      title: "Payroll Management",
       content:
-        "CRM management is comprehensive contact management, allowing businesses to centralize and organize customer information",
+        "Automated payroll runs with salary structure configuration, tax and deduction management, payslip generation, distribution, and compliance reporting.",
     },
     {
       img: "/assets/img/services-icon6.svg",
-      title: "Complete Visibility",
+      title: "Expense Management",
       content:
-        "CRM management is comprehensive contact management, allowing businesses to centralize and organize customer information",
+        "Streamlined expense claim submission with digital receipt upload, customizable expense categories, and multi-level approval workflows with analytics.",
     },
   ];
 
@@ -47,16 +47,16 @@ const Services2 = () => {
         <div className="cs_section_heading cs_style_1 cs_center_column cs_mb_47 text-center position-relative z-1">
           <div className="cs_section_subtitle cs_fs_18 cs_heading_color cs_mb_22">
             {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
-            <span>Our Services</span>
+            <span>Our Modules</span>
             {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
           </div>
           <h2 className="cs_section_title cs_fs_48 cs_semibold wow fadeInUp">
-            Examining Essential Services
+            Comprehensive HR Modules
           </h2>
           <p className="mb-0">
-            CRM management is comprehensive contact management, allowing
-            businesses to centralize <br /> and organize customer information
-            for easy access.
+            Socle RH provides a complete suite of HR modules built with
+            multi-tenant architecture, <br /> robust security, and role-based
+            access controls.
           </p>
         </div>
         <div className="row cs_row_gap_30 cs_gap_y_30 position-relative z-2">

@@ -18,16 +18,16 @@ const Feature2 = () => {
                 <div className="cs_section_heading cs_style_1 cs_mb_33">
                   <div className="cs_section_subtitle cs_fs_18 cs_heading_color cs_mb_22">
                     {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
-                    <span>Our Benefits</span>
+                    <span>Platform Benefits</span>
                     {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
                   </div>
                   <h2 className="cs_section_title cs_fs_48 cs_semibold wow fadeInUp">
-                    Powerful Features to Boost productivity
+                    Why Choose Socle RH for Your Business
                   </h2>
                   <p className="cs_card_desc mb-0">
-                    All the generators on the Internet tend to repeat predefined
-                    chunks as necessary, making this the first true generator on
-                    the Internet.
+                    Built with multi-tenant architecture, GDPR compliance,
+                    and enterprise-grade security to power your HR operations
+                    at any scale.
                   </p>
                 </div>
                 <div className="cs_iconbox_wrapper_3">
@@ -35,16 +35,16 @@ const Feature2 = () => {
                     <span className="cs_iconbox_icon cs_center cs_radius_100 cs_mb_18">
                       <img
                         src="/assets/img/icons/safety.svg"
-                        alt="Safe & Organized icon"
+                        alt="Secure & Compliant icon"
                       />
                     </span>
                     <div className="cs_iconbox_info">
                       <h3 className="cs_fs_18 cs_semibold cs_mb_4">
-                        Safe & Organized
+                        Secure & GDPR Compliant
                       </h3>
                       <p className="mb-0">
-                        All the generators on the Internet tend to repeat
-                        predefined
+                        Data encryption, role-based access, and regular
+                        backups ensure your HR data is always protected.
                       </p>
                     </div>
                   </div>
@@ -52,16 +52,16 @@ const Feature2 = () => {
                     <span className="cs_iconbox_icon cs_bg_1 cs_center cs_radius_100 cs_mb_18">
                       <img
                         src="/assets/img/icons/analytics-2.svg"
-                        alt="Advanced Analytics icon"
+                        alt="HR Analytics icon"
                       />
                     </span>
                     <div className="cs_iconbox_info">
                       <h3 className="cs_fs_18 cs_semibold cs_mb_4">
-                        Advanced Analytics
+                        HR Analytics & Reporting
                       </h3>
                       <p className="mb-0">
-                        All the generators on the Internet tend to repeat
-                        predefined
+                        Platform-wide dashboards with real-time metrics on
+                        headcount, leave trends, payroll, and expenses.
                       </p>
                     </div>
                   </div>
@@ -69,16 +69,16 @@ const Feature2 = () => {
                     <span className="cs_iconbox_icon cs_bg_2 cs_center cs_radius_100 cs_mb_18">
                       <img
                         src="/assets/img/icons/automation.svg"
-                        alt="Powerful Automation icon"
+                        alt="Workflow Automation icon"
                       />
                     </span>
                     <div className="cs_iconbox_info">
                       <h3 className="cs_fs_18 cs_semibold cs_mb_4">
-                        Powerful Automation
+                        Workflow Automation
                       </h3>
                       <p className="mb-0">
-                        All the generators on the Internet tend to repeat
-                        predefined
+                        Automate approvals, alerts, payroll runs, and
+                        onboarding tasks to eliminate manual processes.
                       </p>
                     </div>
                   </div>
@@ -86,16 +86,16 @@ const Feature2 = () => {
                     <span className="cs_iconbox_icon cs_bg_3 cs_center cs_radius_100 cs_mb_18">
                       <img
                         src="/assets/img/icons/easy-intinsive.svg"
-                        alt="Easy And Intuitive icon"
+                        alt="Multi-Tenant icon"
                       />
                     </span>
                     <div className="cs_iconbox_info">
                       <h3 className="cs_fs_18 cs_semibold cs_mb_4">
-                        Easy And Intuitive
+                        Multi-Tenant Architecture
                       </h3>
                       <p className="mb-0">
-                        All the generators on the Internet tend to repeat
-                        predefined
+                        Each client gets an isolated, customizable instance
+                        with independent branding and configuration.
                       </p>
                     </div>
                   </div>

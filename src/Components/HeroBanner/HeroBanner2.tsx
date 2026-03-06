@@ -33,7 +33,7 @@ const HeroBanner2 = () => {
                   Platform
                 </h1>
                 <p className="cs_hero_desc cs_mb_30">
-                  Socle RH empowers businesses with a scalable, secure, and
+                  Human Systems empowers businesses with a scalable, secure, and
                   modular HR platform — from employee management and leave
                   tracking to payroll, performance reviews, and beyond.
                 </p>

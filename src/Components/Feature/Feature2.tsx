@@ -22,7 +22,7 @@ const Feature2 = () => {
                     {/* <img src="/assets/img/icons/star-1.svg" alt="Star icon" /> */}
                   </div>
                   <h2 className="cs_section_title cs_fs_48 cs_semibold wow fadeInUp">
-                    Why Choose Socle RH for Your Business
+                    Why Choose Human Systems for Your Business
                   </h2>
                   <p className="cs_card_desc mb-0">
                     Built with multi-tenant architecture, GDPR compliance,

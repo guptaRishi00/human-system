@@ -54,7 +54,7 @@ const Services2 = () => {
             Comprehensive HR Modules
           </h2>
           <p className="mb-0">
-            Socle RH provides a complete suite of HR modules built with
+            Human Systems provides a complete suite of HR modules built with
             multi-tenant architecture, <br /> robust security, and role-based
             access controls.
           </p>

@@ -52,7 +52,7 @@ const Testimonail2 = () => {
       subtitle: "HR Director",
       title: "Sophie Laurent",
       content:
-        "Socle RH has completely transformed how we manage our HR operations. The leave management and payroll automation alone have saved us countless hours each month. The multi-tenant architecture gives us confidence that our data is secure and fully isolated.",
+        "Human Systems has completely transformed how we manage our HR operations. The leave management and payroll automation alone have saved us countless hours each month. The multi-tenant architecture gives us confidence that our data is secure and fully isolated.",
     },
     {
       img: "/assets/img/human-2.png",
